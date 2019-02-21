@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "{id:int}"
 @model ContactModel
 @{
     ViewData["Title"] = "Contact";
@@ -12,6 +12,8 @@
     <abbr title="Phone">P:</abbr>
     425.555.0100
 </address>
+
+<h1>@Model.Nombre</h1>
 
 <address>
     <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
